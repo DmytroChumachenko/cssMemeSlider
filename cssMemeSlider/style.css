@@ -180,3 +180,4 @@ input[name="r"] {
   background-color: black;
 } */
 
+/* [CultureInfo]::CurrentCulture = 'en-US'; $date=(Get-Date).ToString("(ddd, MMM dd, yyyy hh:mm:ss tt)") */
