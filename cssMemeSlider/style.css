@@ -94,70 +94,89 @@ input:checked {
 }
  */
 
- .slider {
+
+/*  
+.slider {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(100, 179, 179)
- }
- .slider__content {
+}
+
+.slider__content {
   width: 1080px;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 2px solid red;
- }
- .slides {
-  width: 200px;
+}
+
+.slides {
+  width: 80%;
   display: flex;
   overflow: hidden;
   border: 2px solid red;
- }
- .slide {
-  width: 100%;
+}
+
+.slide {
+  width: 500%;
   display: flex;
   flex-direction: column;
   justify-content: center;
- }
- img {
-  width: 200px;
- }
- .navigation {
+  border: 2px solid yellow;
+}
+
+.text__content {
+  width: 80%;
+  border: 2px solid yellow;
+  display: flex;
+}
+p {
+  border: 2px solid red;
+  width: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.navigation {
   width: 100px;
   border: 2px solid red;
   display: flex;
- }
+}
 
-input[name="r"]{
+input[name="r"] {
   visibility: hidden;
   margin-left: -16px;
 }
 
- #r1:checked ~ .s1 {
+#r1:checked~.s1 {
   margin-left: 0;
 }
 
- #r2:checked ~  .s1 {
-  margin-left: -200%;
+#r2:checked~.s1 {
+  margin-left: -100%;
+} 
+
+#r3:checked~.s1 {
+  margin-left: -200%; 
 }
 
-#r3:checked ~ .s1 {
+#r4:checked~.s1 {
+  margin-left: -300%;
+}
+
+#r5:checked~.s1 {
   margin-left: -400%;
-}
-
-#r4:checked ~ .s1 {
-  margin-left: -600%;
-}
-#r5:checked ~ .s1 {
-  margin-left: -800%;
 }
 
 .bar {
   width: 20px;
   height: 20px;
   border-radius: 50px;
-  
- 
   background-color: black;
-}
+} */
+
